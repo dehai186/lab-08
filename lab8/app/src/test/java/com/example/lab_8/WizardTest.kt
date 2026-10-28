@@ -51,6 +51,7 @@ class WizardTest {
 
     @Test
     fun enough_mana(){
+        evilWizard.mana = 70
         evilWizard.train()
 
         assertEquals(65, evilWizard.mana) // 70-5 = 65
